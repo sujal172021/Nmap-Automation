@@ -42,7 +42,7 @@ Remote Mode is still under development. Only following scans currently work with
  UDP Scan
  Recon Scan
  
-Output
+# Output
 nmapAutomator saves the output of each type of scan is saved into a separate file, under the output directory.
 The entire script output is also saved, which you can view with less -r outputDir/nmapAutomator_host_type.txt, or you can simply cat it.
 
