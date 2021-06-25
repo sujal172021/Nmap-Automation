@@ -11,6 +11,7 @@ This will ensure two things:
 Once initial ports are found 'in 5-10 seconds', we can start manually looking into those ports, and let the rest run in the background with no interaction from our side whatsoever.
 
 Features
+
 Scans
 1. Network : Shows all live hosts in the host's network (~15 seconds)
 2. Port : Shows all open ports (~15 seconds)
@@ -23,4 +24,4 @@ Scans
 Note: This is a reconnaissance tool, and it does not perform any exploitation.
 
 Automatic Recon
-sujalmehghwal
+
