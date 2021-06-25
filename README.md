@@ -1,6 +1,6 @@
 # Nmap-Automation
 
-summary
+# summary
 
 The main goal for this script is to automate the process of enumeration & recon that is run every time, and instead focus our attention on real pentesting.
 
@@ -10,7 +10,7 @@ This will ensure two things:
 
 Once initial ports are found 'in 5-10 seconds', we can start manually looking into those ports, and let the rest run in the background with no interaction from our side whatsoever.
 
-Features
+# Features
 
 Scans
 1. Network : Shows all live hosts in the host's network (~15 seconds)
