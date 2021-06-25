@@ -23,5 +23,26 @@ Scans
 8. All : Runs all the scans (~20-30 minutes)
 Note: This is a reconnaissance tool, and it does not perform any exploitation.
 
-Automatic Recon
+# Automatic Recon
+With the recon option, nmapAutomator will automatically recommend and run the best recon tools for each found port.
+If a recommended tool is missing from your machine, nmapAutomator will suggest how to install it.
+
+# Runs on any shell
+nmapAutomator is 100% POSIX compatible, so it can run on any sh shell, and on any unix-based machine (even a 10 YO router!), which makes nmapAutomator ideal for lateral movement recon.
+
+If you want to run nmapAutomator on a remote machine, simply download a static nmap binary from this link, or with static-get, and transfer it to the remote machine. You can then use -s/--static-nmap to specify the path to the static nmap binary.
+
+# Remote Mode (Beta)
+With the -r/--remote flag nmapAutomator will run in Remote Mode, which is designed to run using POSIX shell commands only, without relying on any external tools.
+Remote Mode is still under development. Only following scans currently work with -r:
+
+ Network Scan (currently ping only)
+ Port Scan
+ Full Scan
+ UDP Scan
+ Recon Scan
+ 
+Output
+nmapAutomator saves the output of each type of scan is saved into a separate file, under the output directory.
+The entire script output is also saved, which you can view with less -r outputDir/nmapAutomator_host_type.txt, or you can simply cat it.
 
